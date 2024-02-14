@@ -1,0 +1,40 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container .add-tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid black;
+  min-height: 500px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.container .add-tasks .tasks {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid gray;
+}
+.container .add-tasks .tasks input {
+  width: 100px;
+}
+.container .add-tasks .tasks textarea {
+  width: 500px;
+}
+.container .buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+}
+.container .buttons button {
+  background-color: rgb(68, 129, 168);
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 7px;
+}
